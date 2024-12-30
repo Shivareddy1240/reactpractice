@@ -6,6 +6,7 @@ import Index from './useState/useStatePractice'
 import Advanced from './useState/useStateAdvanced'
 import MyExample from './useState/useStateExample1'
 import SecondExample from './useState/useStateExample2'
+import Example3 from './useState/useStateExample3'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Advanced />
       <MyExample />
       <SecondExample/>
+      <Example3/>
       </div>
     </>
   )

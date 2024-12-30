@@ -20,16 +20,16 @@ const SecondExample = () => {
 
     const handleFormInputs = (e, inputName) =>{
         console.log(e.target.value, inputName);
-        if(inputName == "firstName"){
+        if(inputName === "firstName"){
             setFirstName(e.target.value);
         }
-        if(inputName == "lastName"){
+        if(inputName === "lastName"){
             setLastName(e.target.value);
         }
-        if(inputName == "email"){
+        if(inputName === "email"){
             setEmail(e.target.value);
         }
-        if(inputName == "password"){
+        if(inputName === "password"){
             setPassword(e.target.value);
         }
         
